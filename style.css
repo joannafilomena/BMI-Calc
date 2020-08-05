@@ -1,0 +1,66 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(68, 105, 32);
+    color: white;
+    font-family: 'Antic Slab', serif;
+}
+
+legend {
+    font-size: 40px;
+    padding-bottom: 2%;
+    background-color: rgb(90 136 45);
+    box-shadow: 0 0 2px black;
+    padding: 0% 2%;
+}
+
+fieldset {
+    border: 2px dotted yellow;
+    margin: 5%;
+    box-shadow: 0px 0px 20px 1px black;
+}
+
+.container {
+    min-width: 400px;
+    padding: 10%;
+    max-width: 90%;
+}
+
+.label {
+    padding: 1%;
+    font-size: 20px;
+}
+
+button {
+    background-color: #ffe36ba8;
+    box-shadow: inset 0 0 2px black;
+    border: none;
+    margin-top: 5%;
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.underweight {
+    display: none;
+}
+
+.normal {
+    display: none;
+}
+
+.overweight {
+    display: none;
+}
+
+.obese {
+    display: none;
+}

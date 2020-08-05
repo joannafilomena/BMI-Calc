@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <fieldset>
+            <legend>BMI Calculator</legend>
+            <div class="label">
+                <label>Your height (cm):
+                    <input name="height" type="number" class="js-height" autofocus>
+                </label>
+            </div>
+            <br>
+            <div class="label">
+                <label>Your weight (kg):
+                    <input name="weight" type="number" class="js-weight">
+                </label>
+            </div>
+        </fieldset>
+        <button>Count!</button>
+        <p>Your BMI is <span class="js-sum"></span>.</p>
+        <p class="underweight">You are underweight.</p>
+        <p class="normal">You are normal.</p>
+        <p class="overweight">You are overweight.</p>
+        <p class="obese">You are obese.</p>
+        </form>
+    </div>
+</body>
+
+</html>
